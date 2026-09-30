@@ -1,0 +1,36 @@
+# ---- build artifacts ----
+build/
+*.o
+*.bin
+*.img
+*.elf
+*.map
+*.exe
+
+# ---- YUAOS runtime files ----
+*.qa
+*.set
+*.ou
+
+# ---- user data ----
+build/userland_dist/
+
+# ---- VS Code ----
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json
+
+# ---- Windows ----
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ---- MSVC / MinGW ----
+*.obj
+*.pdb
+*.ilk
+
+# ---- logs ----
+*.log
